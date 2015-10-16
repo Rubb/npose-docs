@@ -142,6 +142,8 @@ todo_include_todos = True
 html_static_path = ['_static']
 html_context = {
     'css_files': [
+        'https://media.readthedocs.org/css/sphinx_rtd_theme.css',  # overrides for wide tables in RTD theme
+        'https://media.readthedocs.org/css/readthedocs-doc-embed.css',  # overrides for wide tables in RTD theme
         '_static/override.css',  # overrides for wide tables in RTD theme
         ],
     }
