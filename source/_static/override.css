@@ -19,3 +19,7 @@ a:visited {
 .wy-side-scroll a, .wy-side-scroll:visited {
   color: #FFC4FA;
 }
+
+.wy-nav-top {
+  background-color: #790079;
+}
