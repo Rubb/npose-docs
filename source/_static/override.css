@@ -11,3 +11,7 @@ a {
 a:visited {
   color: #802979;
 }
+
+.wy-side-nav-search input[type=text] {
+  border-color: #9824A4;
+}
