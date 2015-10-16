@@ -8,3 +8,15 @@ you through the following steps:
 - Adding it to your own object
 - Adding your own animations
 - Setting the positions of those animations
+
+Get the nPose Starter Kit
+-------------------------
+
+Add nPose to your object
+------------------------
+
+Add your own animations
+-----------------------
+
+Configure animation position
+----------------------------
