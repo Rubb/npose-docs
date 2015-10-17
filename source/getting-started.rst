@@ -37,15 +37,40 @@ object.
 .. image:: _static/getting-started/rug.gif
 
 Edit the object and drag in the nPose scripts, as well as the Adjuster object,
-the utilities BTN notecard, and the meditation animation.
+the utilities BTN notecard, and the meditation animation.  Hold down the Ctrl
+button on your keyboard to select multiple items at once, then drag them.
 
 .. image:: _static/getting-started/add-scripts.gif
 
+If you have your own animation that you'd like to try, add that too!
 
-Add your own animations
------------------------
+Configure menu and animation position
+-------------------------------------
 
-Configure animation position
-----------------------------
+Now we're going to make our pose appear in the menu.  Create a new notecard in
+your inventory, and give it this name::
+
+  DEFAULT:Ommmmm
+
+Open up that notecard, and put this text inside it::
+
+  ANIM|meditation|<0,0,0>|<0,0,0>
+
+Now drag that notecard into the rug's contents.
+
+.. image:: _static/getting-started/default-card.gif
+
+With that single notecard, we've done several very important things:
+
+1. By starting the notecard's name with "DEFAULT:", we've set this pose set to be
+   the default one used when the scripts first start up.
+2. By putting "Ommmmm" after "DEFAULT:", we've added a button labelled "Ommmmm"
+   to the root menu in the object.  If you click the rug now, you should see
+   that button as one of the options.
+3. By putting the "ANIM..." line in the notecard, we've told nPose that whenever
+   someone selects the Ommmmm button, the "meditation" anim should be played.
+   We've also set the position and rotation that the avatar should have when
+   that pose is played.  (They're both set to all zeroes at the moment, but
+   we're going to change that in a minute.)
 
 .. _nPose Starter Kit: https://marketplace.secondlife.com/p/nPose-Starter-Kit/7894545
