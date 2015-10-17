@@ -6,7 +6,14 @@
 Welcome to nPose's documentation!
 =================================
 
-This is a test.
+nPose is a system for controlling avatar animations in Second Life objects.
+Most commonly these objects are chairs, couches, or beds, but they could also be
+skateboards, airplanes, or witches' brooms.
+
+While easy to set up, nPose also provides a very flexible framework for plugging
+in custom behavior for practically any scenario.  By using existing plugins, or
+writing your own, you can integrate nPose into vehicles, traps, and scenes that
+fill an entire Second Life sim.
 
 Contents:
 
@@ -14,13 +21,6 @@ Contents:
    :maxdepth: 2
 
    getting-started
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   advanced-options
+   plugins
+   extending-npose
