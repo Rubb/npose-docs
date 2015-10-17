@@ -30,10 +30,17 @@ Add nPose to your object
 ------------------------
 
 You can put nPose into any object you can modify.  In this tutorial we'll put it
-in a rug.  If you open the Library portion of your inventory, then go to Objects
--> Household, you should find a "Rug, Red" object.
+in a rug, and add some meditation poses.  If you open the Library portion of
+your inventory, then go to Objects -> Household, you should find a "Rug, Red"
+object.
 
 .. image:: _static/getting-started/rug.gif
+
+Edit the object and drag in the nPose scripts, as well as the Adjuster object,
+the utilities BTN notecard, and the meditation animation.
+
+.. image:: _static/getting-started/add-scripts.gif
+
 
 Add your own animations
 -----------------------
