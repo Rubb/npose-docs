@@ -44,8 +44,8 @@ button on your keyboard to select multiple items at once, then drag them.
 
 If you have your own animation that you'd like to try, add that too!
 
-Configure menu and animation position
--------------------------------------
+Set a default pose
+------------------
 
 Now we're going to make our pose appear in the menu.  Create a new notecard in
 your inventory, and give it this name::
@@ -72,5 +72,26 @@ With that single notecard, we've done several very important things:
    We've also set the position and rotation that the avatar should have when
    that pose is played.  (They're both set to all zeroes at the moment, but
    we're going to change that in a minute.)
+
+Set the pose's position and rotation
+------------------------------------
+
+nPose includes an adjuster tool that can help you create properly-formatted ANIM
+lines for your pose notecards, with the positions and rotations you want.  To
+use it, follow these steps:
+
+1. Sit on the object you're configuring.
+2. Touch the object.  Select Utilities, then Admin, then Adjust.
+3. A tall semi-transparent box will appear, with red, green, and blue sides.
+   The position and rotation of this box matches the position and rotation
+   currently configured in your pose card.
+4. Edit the position and rotation of the multi colored box.  Your avatar should
+   move to match.  Keep adjusting the box until your avatar is in the right
+   place.  Each time you move the box, a new ANIM line will be printed in local
+   chat, containing the position and rotation that you just set.
+5. Once your avatar is in the right place, copy the ANIM line from local chat
+   and into the DEFAULT:Ommmmm notecard.
+
+.. image:: _static/getting-started/adjust.gif
 
 .. _nPose Starter Kit: https://marketplace.secondlife.com/p/nPose-Starter-Kit/7894545
