@@ -9,6 +9,9 @@ you through the following steps:
 - Adding your own animations
 - Setting the positions of those animations
 
+You should be able to complete all these steps in about 20 minutes.  Maybe a lot
+less!
+
 Get the nPose Starter Kit
 -------------------------
 
@@ -24,7 +27,11 @@ notecards that give you a clue as to how it's configured.
 If you right click the object and select Open, you can extract its contents into
 a folder in your inventory.
 
-.. image:: _static/getting-started/open.gif
+.. raw:: html
+
+    <video src="_static/getting-started/open.mp4" controls>
+      Your browser does not support HTML5 videos.
+    </video>
 
 Add nPose to your object
 ------------------------
@@ -34,13 +41,26 @@ in a rug, and add some meditation poses.  If you open the Library portion of
 your inventory, then go to Objects -> Household, you should find a "Rug, Red"
 object.
 
-.. image:: _static/getting-started/rug.gif
+.. raw:: html
 
-Edit the object and drag in the nPose scripts, as well as the Adjuster object,
-the utilities BTN notecard, and the meditation animation.  Hold down the Ctrl
-button on your keyboard to select multiple items at once, then drag them.
+    <video src="_static/getting-started/rug.mp4" controls>
+      Your browser does not support HTML5 videos.
+    </video>
 
-.. image:: _static/getting-started/add-scripts.gif
+
+Edit the object and drag in the following items:
+
+1. All nPose scripts
+2. The meditation animation
+
+Hold down the Ctrl button on your keyboard to select multiple items at once,
+then drag them.
+
+.. raw:: html
+
+    <video src="_static/getting-started/add-scripts.mp4" controls>
+      Your browser does not support HTML5 videos.
+    </video>
 
 If you have your own animation that you'd like to try, add that too!
 
@@ -58,12 +78,10 @@ Open up that notecard, and put this text inside it::
 
 Now drag that notecard into the rug's contents.
 
-.. image:: _static/getting-started/default-card.gif
-
 With that single notecard, we've done several very important things:
 
-1. By starting the notecard's name with "DEFAULT:", we've set this pose set to be
-   the default one used when the scripts first start up.
+1. Since its notecard name starts with "DEFAULT:", this pose set will be the
+   default one used when the scripts first start up.
 2. By putting "Ommmmm" after "DEFAULT:", we've added a button labelled "Ommmmm"
    to the root menu in the object.  If you click the rug now, you should see
    that button as one of the options.
@@ -73,8 +91,17 @@ With that single notecard, we've done several very important things:
    that pose is played.  (They're both set to all zeroes at the moment, but
    we're going to change that in a minute.)
 
+.. raw:: html
+
+    <video src="_static/getting-started/default-card.mp4" controls>
+      Your browser does not support HTML5 videos.
+    </video>
+
+
 Set the pose's position and rotation
 ------------------------------------
+3. The Adjuster object
+4. The notecard named "BTN:Utilities:Admin{owner}"
 
 nPose includes an adjuster tool that can help you create properly-formatted ANIM
 lines for your pose notecards, with the positions and rotations you want.  To
@@ -83,15 +110,25 @@ use it, follow these steps:
 1. Sit on the object you're configuring.
 2. Touch the object.  Select Utilities, then Admin, then Adjust.
 3. A tall semi-transparent box will appear, with red, green, and blue sides.
-   The position and rotation of this box matches the position and rotation
-   currently configured in your pose card.
-4. Edit the position and rotation of the multi colored box.  Your avatar should
-   move to match.  Keep adjusting the box until your avatar is in the right
-   place.  Each time you move the box, a new ANIM line will be printed in local
-   chat, containing the position and rotation that you just set.
+   (This is the Adjuster object you added.) 
+4. Edit Adjuster's position and rotation.  Your avatar should move to match.
+   Keep adjusting the box until your avatar is in the right place.  Each time
+   you move the box, a new ANIM line will be printed in local chat, containing
+   the position and rotation that you just set.
 5. Once your avatar is in the right place, copy the ANIM line from local chat
    and into the DEFAULT:Ommmmm notecard.
 
-.. image:: _static/getting-started/adjust.gif
+Add a two-person pose set
+-------------------------
+
+So far you've configured nPose with a single-animation pose set, set it as the
+default, and given it a button in the root menu.
+
+Let's kick things up a notch by making a two-animation pose set, which isn't the
+default, and has a button in a more deeply-nested menu.
+
+Do the following:
+
+1. Drag the 
 
 .. _nPose Starter Kit: https://marketplace.secondlife.com/p/nPose-Starter-Kit/7894545
