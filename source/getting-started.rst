@@ -102,8 +102,8 @@ Set the pose's position and rotation
 ------------------------------------
 
 nPose includes an adjuster tool that can help you create properly-formatted ANIM
-lines for your pose notecards, with the positions and rotations you want.  Copy
-these items from the starter kit into your object:
+lines for your pose notecards, with the positions and rotations you want.
+Follow these steps to adjust the position of your pose:
 
 1. Copy the "Adjuster" object and the "BTN:Utilities:Admin{owner}" notecard from
    the starter kit into your object.
